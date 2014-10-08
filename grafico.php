@@ -11,17 +11,7 @@
 ?>
 <html>
 <head>
-<script type="text/javascript">
-    // obtenemos el array de valores mediante la conversion a json del
-    // array de php
-    var arrayJS=<?php echo json_encode($emuestra);?>;
-    
-    // Mostramos los valores del array
-    for(var i=0;i<arrayJS.length;i++)
-    {
-        document.write("<br>"+arrayJS[i]);
-    }
-</script>
+
 <title>JSChart</title>
 
 <script type="text/javascript" src="sources/jscharts.js"></script>

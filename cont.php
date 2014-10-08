@@ -5,7 +5,7 @@ var_dump($a);
 foreach ($a as $key => $value) {
 		$buscar = (array_keys($a, $value));
         $contador = count($buscar);
-        echo "$value se repite $contador veces <br>";
+        echo "$value -> frecuencia: $contador <br>";
 }
 
 ?>
